@@ -1,0 +1,97 @@
+html, body
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+header
+{
+	/*height: 47em;*/
+    width: 100%;
+    min-width: 400px;
+    /*background: url();
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+
+header img 
+{
+	position: relative;
+	width: 100%;
+}
+
+header #banner1
+{
+	position: absolute;
+    top: 450px;
+    color: white;
+    font-size: 2em;
+    background: rgba(41, 254, 156, 0.28);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+#banner2_box
+{
+	float: right;
+	width: 40%;
+}
+
+#banner2
+{
+	position: absolute;
+	background: rgba(92, 150, 255, 0.40);;
+    top: 730px;
+    color: white;
+    font-size: 2em;
+    width: 40%;
+    margin: 0 auto;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.nav 
+{
+	position: absolute;
+	top: 0px;
+    width: 100%;
+    margin: 0px;
+    background: rgb(14, 14, 14);
+    border-bottom: 5px solid #304771;
+    z-index: 1;
+    padding: 10px 20px;
+}
+
+.nav span 
+{
+	/*border: 1px solid red;*/
+    width: 30%;
+    float: left;
+    font-size: 1.2em;
+    padding-left: 40px;
+    color: #22DDB3;
+}
+
+.nav #stmnt
+{
+	float:left;
+	width: 25%;
+	border-bottom: 1px solid white;
+
+}
+.nav li
+{
+	display: inline;
+	padding: 10px 0px;
+    margin-right: 100px;
+    float: right;
+}
+
+.nav a 
+{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
