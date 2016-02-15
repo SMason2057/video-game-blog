@@ -129,6 +129,11 @@ button
     font-size: 1.2em;
 }
 
+button:hover
+{
+    background: #3A96FF;;
+}
+
 #button_container
 {
     margin: 0 auto;
@@ -160,10 +165,6 @@ button
     margin-left: 10px;
 }
 
-.fa:hover
-{
-    background: orange;
-}
 
 footer
 {
