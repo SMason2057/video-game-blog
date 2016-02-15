@@ -1,61 +1,26 @@
 html, body
 {
-	margin: 0px;
-	padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 header
 {
-	/*height: 47em;*/
+    position: relative;
     width: 100%;
-    min-width: 400px;
-    /*background: url();
-    background-size: cover;
-    background-repeat: no-repeat;*/
+   /* min-width: 400px;*/
 }
 
 header img 
 {
-	position: relative;
-	width: 100%;
-}
-
-header #banner1
-{
-	position: absolute;
-    top: 450px;
-    color: white;
-    font-size: 2em;
-    background: rgba(41, 254, 156, 0.28);
-    width: 50%;
-    margin: 0 auto;
-    padding: 10px 40px;
-    text-align: center;
-}
-
-#banner2_box
-{
-	float: right;
-	width: 40%;
-}
-
-#banner2
-{
-	position: absolute;
-	background: rgba(92, 150, 255, 0.40);;
-    top: 730px;
-    color: white;
-    font-size: 2em;
-    width: 40%;
-    margin: 0 auto;
-    padding: 10px 40px;
-    text-align: center;
+    width: 100%;
+    height: 100vh;
 }
 
 .nav 
 {
-	position: absolute;
-	top: 0px;
+    position: absolute;
+    top: 0px;
     width: 100%;
     margin: 0px;
     background: rgb(14, 14, 14);
@@ -66,32 +31,141 @@ header #banner1
 
 .nav span 
 {
-	/*border: 1px solid red;*/
     width: 30%;
     float: left;
     font-size: 1.2em;
     padding-left: 40px;
-    color: #22DDB3;
+    color: #FF4D00;
+    font-family: 'Quattrocento';
 }
 
 .nav #stmnt
 {
-	float:left;
-	width: 25%;
-	border-bottom: 1px solid white;
-
+    float:left;
+    text-align: center;
+    width: 120px;
+    border-bottom: 1px solid white;
 }
+
 .nav li
 {
-	display: inline;
-	padding: 10px 0px;
+    display: inline;
+    padding: 10px 0px;
     margin-right: 100px;
     float: right;
+    font-family: 'Quattrocento';
 }
 
 .nav a 
 {
-	text-decoration: none;
-	color: #fff;
-	font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.nav a:hover 
+{
+    border-bottom: 1px solid #FF4D00;
+}
+
+#banner1
+{
+    position: absolute;
+    font-family: 'Quattrocento';
+    /*top: 450px;*/
+    top: -400px;
+    color: white;
+    font-size: 2em;
+    background: rgba(41, 254, 156, 0.28);
+    margin: 0 auto;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+#banner1_box
+{
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+#banner2_box
+{
+    position: relative;
+    float: right;
+    width: 50%;
+}
+
+#banner2
+{
+    position: absolute;
+    background: rgba(92, 150, 255, 0.6);
+    font-family: 'Quattrocento';
+    top: -220px;
+    right: 0px;
+    color: white;
+    font-size: 2em;
+    /*width: 40%;*/
+    margin: 0 auto;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+article
+{
+    margin: 60px auto 20px auto;
+    width: 70%;
+    border-bottom: 1px solid #B5B2B1;
+}
+
+button
+{
+    float: left;
+    padding: 15px;
+    border: none;
+    background: #3A5D9C;
+    color: white;
+    font-family: 'Quattrocento';
+    font-size: 1.2em;
+}
+
+#button_container
+{
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+    /*border: 1px solid red;*/
+    height: 50px;
+}
+
+#older_btn
+{
+    float: left;
+}
+
+#newer_btn
+{
+    float:right;
+}
+
+.fa.fa-chevron-left
+{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.fa.fa-chevron-right
+{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.fa:hover
+{
+    background: orange;
+}
+
+footer
+{
+    margin-bottom: 100px;
 }
