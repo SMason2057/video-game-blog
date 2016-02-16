@@ -14,7 +14,7 @@ header
 header img 
 {
     width: 100%;
-    height: 100vh;
+    height: initial;
 }
 
 .nav 
@@ -43,7 +43,6 @@ header img
 {
     float:left;
     text-align: center;
-    width: 120px;
     border-bottom: 1px solid white;
 }
 
@@ -73,7 +72,7 @@ header img
     position: absolute;
     font-family: 'Quattrocento';
     /*top: 450px;*/
-    top: -400px;
+    top: -460px;
     color: white;
     font-size: 2em;
     background: rgba(41, 254, 156, 0.28);
@@ -101,7 +100,7 @@ header img
     position: absolute;
     background: rgba(92, 150, 255, 0.6);
     font-family: 'Quattrocento';
-    top: -220px;
+    top: -280px;
     right: 0px;
     color: white;
     font-size: 2em;
@@ -116,6 +115,16 @@ article
     margin: 60px auto 20px auto;
     width: 70%;
     border-bottom: 1px solid #B5B2B1;
+}
+
+article h2
+{
+    color: #3C609D;
+}
+
+article h3
+{
+    color: #1B8E58;
 }
 
 button
