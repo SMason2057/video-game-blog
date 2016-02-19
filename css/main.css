@@ -15,12 +15,14 @@ header img
 {
     width: 100%;
     height: initial;
+    display: inherit;
 }
 
 .nav 
 {
     position: absolute;
     top: 0px;
+    right: 0px;
     width: 100%;
     margin: 0px;
     background: rgb(14, 14, 14);
@@ -36,7 +38,7 @@ header img
     font-size: 1.2em;
     padding-left: 40px;
     color: #FF4D00;
-    font-family: 'Quattrocento';
+    font-family: 'Nixie One';
 }
 
 .nav #stmnt
@@ -52,7 +54,7 @@ header img
     padding: 10px 0px;
     margin-right: 100px;
     float: right;
-    font-family: 'Quattrocento';
+    font-family: 'Nixie One';
 }
 
 .nav a 
@@ -70,11 +72,11 @@ header img
 #banner1
 {
     position: absolute;
-    font-family: 'Quattrocento';
+    font-family: 'Nixie One';
     /*top: 450px;*/
     top: -460px;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     background: rgba(41, 254, 156, 0.28);
     margin: 0 auto;
     padding: 10px 70px;
@@ -99,47 +101,103 @@ header img
 {
     position: absolute;
     background: rgba(92, 150, 255, 0.6);
-    font-family: 'Quattrocento';
+    font-family: 'Nixie One';
     top: -280px;
     right: 0px;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     /*width: 40%;*/
     margin: 0 auto;
     padding: 10px 40px;
     text-align: center;
 }
 
+input 
+{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Nixie One';
+    width: 100%;
+    padding: 10px 0px;
+    height: 50px;
+    /*background: #114D31;*/
+    font-weight: bolder;
+    font-size: 2em;
+    border: 2px solid gainsboro;
+    display: block;
+    color: #D93F09;
+}
+
+input::-webkit-input-placeholder
+{
+  color: #D93F09;
+
+}
+
+#article_container
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    /*text-align: center;*/
+}
+
 article
 {
     margin: 60px auto 20px auto;
-    width: 70%;
+    /*width: 70%;*/
+    width: 50%;
+    position: relative;
     text-align: center;
-    border-bottom: 1px solid #B5B2B1;
+    /*border-bottom: 1px solid #B5B2B1;*/
 }
 
 article h2
 {
-    color: #3C609D;
-    width: 60%;
+    /*width: 60%;*/
     margin: 20px auto;
-}
-
-article h3
-{
-    color: #1B8E58;
-    width: 60%;
-    margin: 20px auto;
+    font-family: 'Nixie One';
+    text-align: center;
+    font-size: .8em;
 }
 
 article img
 {
     width: 75%;
+    margin: 10px auto 0px auto;
+    display: inherit;
+}
+
+article a 
+{
+    text-decoration: none;
+}
+.desc
+{
+ 
+   display: block;
+   font-size: 1em;
+   background: #111;
+   opacity: .7;
+   color: #fff;
+   position: absolute;
+   bottom: 5px;
+   right: 0px;
+   left: 0px;
+   padding-top: 15px;
+   width: 75%;
+   margin: 0 auto;
+   height: 100px;
+    /*padding: 10px 11px 0px 10px;
+    width: 405px;
+    margin: -150px auto 0px auto;
+    height: 125px;*/
 }
 
 .post-meta
 {
-    width: 60%;
+    font-size: .8em;
     margin: 20px auto;
 }
 
@@ -150,7 +208,7 @@ button
     border: none;
     background: #3A5D9C;
     color: white;
-    font-family: 'Quattrocento';
+    font-family: 'Nixie One';
     font-size: 1.2em;
 }
 
